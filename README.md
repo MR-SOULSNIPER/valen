@@ -9,7 +9,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Georgia', serif;
     background: linear-gradient(to right, #ff758c, #ff7eb3);
     text-align: center;
     color: white;
@@ -17,19 +17,20 @@ body {
 }
 
 h1 {
-    margin-top: 60px;
+    margin-top: 80px;
     font-size: 3em;
 }
 
 p {
-    font-size: 1.2em;
-    width: 85%;
-    margin: 30px auto;
-    line-height: 1.6;
+    width: 80%;
+    margin: 20px auto;
+    font-size: 1.3em;
+    line-height: 1.8;
 }
 
 button {
-    padding: 15px 35px;
+    margin-top: 30px;
+    padding: 15px 40px;
     font-size: 18px;
     border: none;
     border-radius: 30px;
@@ -46,8 +47,8 @@ button:hover {
 }
 
 #hiddenMessage {
-    margin-top: 25px;
-    font-size: 1.5em;
+    margin-top: 30px;
+    font-size: 1.6em;
     display: none;
 }
 
@@ -67,28 +68,35 @@ button:hover {
 
 <body>
 
-<h1>Happy Valentine’s Day Kaytlin ❤️</h1>
-
-<div class="photo-container">
-    <img src="me.jpg" alt="Me">
-    <img src="us.jpg" alt="Us Together">
-</div>
+<h1>Kaytlin, My Love ❤️</h1>
 
 <p>
-Kaytlin, you are the most important person in my life.  
-Every moment with you means everything to me.  
-You make my world brighter just by being in it.  
+Kaytlin, I don’t even know where to start when it comes to explaining how much you mean to me.  
+From the moment you came into my life, everything changed. You brought light into my world in ways I didn’t even know I needed.  
 
-I love your smile, your heart, your energy — everything about you.  
-No matter what happens, I will always care about you and choose you.  
-You are my favorite person, today and always 💕
+You are the most beautiful soul I have ever met. Not just on the outside, but inside too. Your kindness, your laugh, the way you talk, the way you care — it all makes me fall for you more every single day.
 </p>
 
-<button onclick="showMessage()">Click Me Kaytlin 💖</button>
+<p>
+I love the way you smile. I love the way you make me feel safe. I love how just thinking about you makes my whole mood better.  
+
+When I’m with you, I feel like I’m exactly where I’m supposed to be. You’re not just someone I care about — you’re my favorite person. My peace. My happiness.
+</p>
+
+<p>
+No matter what happens in life, I want you to know this:  
+I choose you. Every day.  
+Not just today. Not just on Valentine’s Day.  
+But always.
+</p>
+
+<button onclick="showMessage()">Click This Kaytlin 💖</button>
 
 <div id="hiddenMessage">
-    I love you more than words can explain.  
-    Forever isn’t long enough with you 💘
+    Kaytlin, I love you more than words could ever explain.  
+    More than yesterday, more than today,  
+    and I will love you even more tomorrow.  
+    You are my heart ❤️
 </div>
 
 <script>
