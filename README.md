@@ -21,26 +21,6 @@ h1 {
     font-size: 3em;
 }
 
-.photo-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-    margin-top: 30px;
-}
-
-.photo-container img {
-    width: 250px;
-    border-radius: 20px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
-    transition: 0.3s;
-    
-}
-
-.photo-container img:hover {
-    transform: scale(1.05);![Image](https://github.com/user-attachments/assets/173b00ac-b14a-40ee-aa02-55e5b6f1e13b)
-}
-
 p {
     font-size: 1.2em;
     width: 85%;
