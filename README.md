@@ -27,7 +27,6 @@ h1 {
     gap: 20px;
     flex-wrap: wrap;
     margin-top: 30px;
-    ![Image](https://github.com/user-attachments/assets/173b00ac-b14a-40ee-aa02-55e5b6f1e13b)
 }
 
 .photo-container img {
@@ -39,7 +38,7 @@ h1 {
 }
 
 .photo-container img:hover {
-    transform: scale(1.05);
+    transform: scale(1.05);![Image](https://github.com/user-attachments/assets/173b00ac-b14a-40ee-aa02-55e5b6f1e13b)
 }
 
 p {
